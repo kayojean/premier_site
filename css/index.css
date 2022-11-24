@@ -1,0 +1,32 @@
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color: yellow;
+}
+.nav-item a:visited{
+    color: white;
+}
+.carousel-item{
+    height: 33rem;
+}
+
+@media screen and (max-width:520px) {
+    .carousel-item{
+        height: auto;
+    }
+}
+
+.carousel-item img{
+    filter: brightness(50%)
+}
+.carousel-caption{
+    margin-bottom: 180px;
+}
+.para{
+    text-align: justify;
+    height: 360px;
+    border: 3px groove black;
+    overflow-y: scroll;
+    text-indent: 20px;
+}
